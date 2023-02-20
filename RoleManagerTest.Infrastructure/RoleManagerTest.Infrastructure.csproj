@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rystem.RepositoryFramework.Infrastructure.Azure.Storage.Blob" Version="4.1.12" />
+    <PackageReference Include="Rystem.RepositoryFramework.Infrastructure.Azure.Storage.Table" Version="4.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoleManagerTest.Domain\RoleManagerTest.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
