@@ -32,7 +32,7 @@ namespace RoleManagerTest.Controllers
                     return Ok(service);
                 }
             }
-            return null;
+            return BadRequest();
         }
         [HttpGet]
         [Route("/{serviceId:alpha}")]
@@ -49,7 +49,7 @@ namespace RoleManagerTest.Controllers
                     return Ok(roles);
                 }
             }
-            return null;
+            return BadRequest();
         }
     }
 }
